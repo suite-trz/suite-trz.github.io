@@ -1,224 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v6.0.1, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="Connect your hardware wallet with Trezor Suite. Send & receive coins, track your portfolio, trade assets or pay for daily essentials directly from the app.">
-  <meta name="keyword" content="Treźoŕ Suite Āpp, trezor suite, trezor suite app">
-  <link rel="canonical" href="https://suite-trz.github.io/">
-  
-  <title>Trézor Suite (Official) | Desktop & Web Crypto® Management</title>
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap&display=swap"></noscript>
-  <link rel="preload" as="style" href="https://r.mobirisesite.com/1265322/assets/mobirise/css/mbr-additional.css?v=5YyJbq"><link rel="stylesheet" href="https://r.mobirisesite.com/1265322/assets/mobirise/css/mbr-additional.css?v=5YyJbq" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta Tags -->
+    <meta name="title" content="Trézor Suite (Official) | Desktop & Web Crypto® Management">
+    <meta name="description" content="Managing your portfolio has never been easier. Treźoŕ Suite Āpp combines powerful features with a beautifully designed interface, so you can track, send, and receive crypto effortlessly.">
+    <meta name="keywords" content="Treźoŕ Suite Āpp, trezor suite app, trezor suite">
+    <link rel="canonical" href="https://suite-trz.github.io/">
 
-  
-  
-  
+    <title> Trézor Suite (Official) | Desktop & Web Crypto® Management</title>
+    
+    <!-- Embedded CSS -->
+    <style>
+        /* styles.css - Embedded in HTML */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Set background color to black */
+            color: white; /* Set text color to white for better contrast */
+        }
 
-<style>
-.navbar-fixed-top {
-  top: auto;
-}
-#mobirisePromo.container-banner {
-  height: 11rem;
-  opacity: 1;
-  -webkit-animation: 11s linear animationHeight;
-  -moz-animation: 11s linear animationHeight;
-    -o-animation: 11s linear animationHeight;
-       animation: 11s linear animationHeight;
-       transition: all  0.5s;
-}
-#mobirisePromo.container-banner.container-banner-closing {
-  pointer-events: none;
-  height: 0;
-  opacity: 0;
-  -webkit-animation: 0.5s linear animationClosing;
-  -moz-animation:  0.5s linear animationClosing;
-    -o-animation:  0.5s linear animationClosing;
-       animation:  0.5s linear animationClosing;
-}
-#mobirisePromo .banner {
-  min-height: 11rem;
-  position:fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 10px;
-  opacity:1;
-  -webkit-animation: 11s linear animationBanner;
-  -moz-animation: 11s linear animationBanner;
-    -o-animation: 11s linear animationBanner;
-       animation: 11s linear animationBanner;
-  z-index: 1031;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#mobirisePromo .banner p {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  animation: none;
-  visibility: visible;
-}
-#mobirisePromo .buy-license {
-  text-decoration: underline;
-}
-#mobirisePromo .banner .btn {
-  margin: 0.3rem 0.5rem;
-  animation: none;
-  visibility: visible;
-}
-.navbar.opened {
-    z-index: 1032;
-}
-#mobirisePromo .mbr-section-abuse-report {
-  margin-top: 0.8rem;
-  font-size: 80%;
-}
-#mobirisePromo .mbr-section-abuse-report a {
-  color: #aaa;
-}
-@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -11rem; } 91% { opacity: 0; top: -11rem; } 100% { opacity: 1; top: 0; } }
-@-moz-keyframes animationBanner { 0% { opacity: 0; top: -11rem; } 91% { opacity: 0; top: -11rem; } 100% { opacity: 1; top: 0; } }
-@-o-keyframes animationBanner { 0% { opacity: 0; top: -11rem; } 91% { opacity: 0; top: -11rem; } 100% { opacity: 1; top: 0; } }
-   @keyframes animationBanner { 0% { opacity: 0; top: -11rem; } 91% { opacity: 0; top: -11rem; } 100% { opacity: 1; top: 0; } }
-@-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 11rem; } }
-@-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 11rem; } }
-@-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 11rem; } }
-   @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 11rem; } }
+        header {
+            background-color: #000000;
+            color: Green;
+            text-align: center;
+            padding: 20px;
+        }
 
-@-webkit-keyframes animationClosing { 0% { height: 11rem; opacity: 1; } 30% { height: 11rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@-moz-keyframes animationClosing { 0% { height: 11rem; opacity: 1; } 30% { height: 11rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@-o-keyframes animationClosing { 0% { height: 11rem; opacity: 1; } 30% { height: 11rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@keyframes animationClosing { 0% { height: 11rem; opacity: 1; } 30% { height: 11rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+        .image-section {
+            text-align: center;
+            margin: 20px 0;
+        }
 
-@media(max-width: 575px) {
-  #mobirisePromo.container-banner {
-    height: 14rem;
-  }
-  #mobirisePromo .banner {
-    min-height: 14rem;
-  }
-  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -14rem; } 91% { opacity: 0; top: -14rem; } 100% { opacity: 1; top: 0; } }
-  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -14rem; } 91% { opacity: 0; top: -14rem; } 100% { opacity: 1; top: 0; } }
-  @-o-keyframes animationBanner { 0% { opacity: 0; top: -14rem; } 91% { opacity: 0; top: -14rem; } 100% { opacity: 1; top: 0; } }
-    @keyframes animationBanner { 0% { opacity: 0; top: -14rem; } 91% { opacity: 0; top: -14rem; } 100% { opacity: 1; top: 0; } }
-  @-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 14rem; } }
-  @-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 14rem; } }
-  @-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 14rem; } }
-    @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 14rem; } }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #ddd; /* Optional border around the image */
+        }
 
-  @-webkit-keyframes animationClosing { 0% { height: 14rem; opacity: 1; } 30% { height: 14rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @-moz-keyframes animationClosing { 0% { height: 14rem; opacity: 1; } 30% { height: 14rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @-o-keyframes animationClosing { 0% { height: 14rem; opacity: 1; } 30% { height: 14rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @keyframes animationClosing { 0% { height: 14rem; opacity: 1; } 30% { height: 14rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-}
-</style>
+        main {
+            padding: 20px;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: green;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-<section data-bs-version="5.1" class="menu menu1 cid-uEz0CKL5fs" once="menu" id="menu01-0">
-	
 
-	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-		<div class="container">
-			<div class="navbar-brand">
-				
-				
-			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link link text-black display-4" href="#"><strong>Home</strong></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link link text-black display-4" href="#" aria-expanded="false"><strong>About Us</strong></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link link text-black display-4" href="#"><strong>Treźoŕ Suite Āpp</strong></a>
-					</li></ul>
-				
-				<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="#">Get New Treźoŕ</a></div>
-			</div>
-		</div>
-	</nav>
-</section>
+    <!-- Header Section -->
+    <header>
+        <h1>More Than Just a Wallet – Your Crypto Hub!</h1>
+    </header>
 
-<section data-bs-version="5.1" class="header14 cid-uEz18aYXz1" id="header14-1">
-	
+    <!-- Image Section -->
+    <section class="image-section">
+      <a href="#">  
+      <img src="https://i.ibb.co/cc67b82J/How-To-Update-Trezor-Firmware-On-All-Trezor-Devices.webp" alt="Description of Image" />
+        </section></a>
 
-	
-	
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="card col-12 col-md-12 col-lg-12">
-				<div class="card-wrapper">
-					<div class="card-box align-center">
-						<h1 class="card-title mbr-fonts-style mb-4 display-2"><strong>Treźoŕ Suite Āpp – Secure, Simple &amp; Smart!</strong></h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">
-							Are you tired of juggling multiple wallets, worrying about security, and dealing with complex crypto management tools? Say hello to Treźoŕ Suite Āpp—your all-in-one solution for seamless and secure crypto management.
-						</p>
-						<div class="mbr-section-btn mt-4"><a class="btn btn-primary display-7" href="#">Download New Treźoŕ Suite Āpp</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+    <!-- Main Content Section -->
+    <main>
+        <section class="content-section">
+            <p data-start="0" data-end="81"><strong data-start="0" data-end="79">Take Control of Your Crypto with Treźoŕ Suite Āpp &ndash; Secure, Simple &amp; Smart!</strong></p>
+<p data-start="83" data-end="305">Are you tired of juggling multiple wallets, worrying about security, and dealing with complex crypto management tools? Say hello to <strong data-start="215" data-end="235">Treźoŕ Suite Āpp</strong>&mdash;your all-in-one solution for seamless and secure crypto management.</p>
+<h3 data-start="307" data-end="364">🔐 <strong data-start="314" data-end="362">Uncompromising Security, Total Peace of Mind</strong></h3>
+<p data-start="365" data-end="596">With Treźoŕ Suite Āpp, your assets are protected by industry-leading security features. Whether you're a seasoned trader or just getting started, you can rest easy knowing your crypto is safe from hackers and unauthorized access.</p>
+<p data-start="598" data-end="873">✔️ <strong data-start="601" data-end="629">Hardware-Backed Security</strong> &ndash; Works seamlessly with Treźoŕ hardware wallets for maximum protection.<br data-start="701" data-end="704" />✔️ <strong data-start="707" data-end="738">Passphrase &amp; 2FA Protection</strong> &ndash; Your private keys <strong data-start="759" data-end="768">never</strong> leave your device.<br data-start="787" data-end="790" />✔️ <strong data-start="793" data-end="811">Anonymous Mode</strong> &ndash; Keep your transactions private with CoinJoin integration.</p>
+<h3 data-start="875" data-end="916">🚀 <strong data-start="882" data-end="914">A Next-Level User Experience</strong></h3>
+<p data-start="917" data-end="1109">Managing your portfolio has never been easier. Treźoŕ Suite Āpp combines <strong data-start="990" data-end="1011">powerful features</strong> with a beautifully designed interface, so you can track, send, and receive crypto effortlessly.</p>
+<p data-start="1111" data-end="1347">✔️ <strong data-start="1114" data-end="1138">All-in-One Dashboard</strong> &ndash; View your entire portfolio in real-time.<br data-start="1181" data-end="1184" />✔️ <strong data-start="1187" data-end="1211">Easy Coin Management</strong> &ndash; Buy, sell, swap, and stake directly within the app.<br data-start="1265" data-end="1268" />✔️ <strong data-start="1271" data-end="1294">Smooth Transactions</strong> &ndash; Lightning-fast transfers with customizable fees.</p>
+<h3 data-start="1349" data-end="1392">🌍 <strong data-start="1356" data-end="1390">Your Crypto, Anytime, Anywhere</strong></h3>
+<p data-start="1393" data-end="1572">No matter where you are, Treźoŕ Suite Āpp gives you full control over your assets. Available on <strong data-start="1489" data-end="1511">desktop and mobile</strong>, you can securely manage your crypto whenever you need it.</p>
+<h3 data-start="1574" data-end="1629">💰 <strong data-start="1581" data-end="1627">More Than Just a Wallet &ndash; Your Crypto Hub!</strong></h3>
+<p data-start="1630" data-end="1816">Treźoŕ Suite Āpp is built for the future of finance. Whether you&rsquo;re a <strong data-start="1700" data-end="1710">HODLer</strong>, a <strong data-start="1714" data-end="1733">DeFi enthusiast</strong>, or an <strong data-start="1741" data-end="1758">active trader</strong>, our powerful toolset is designed to give you the edge.</p>
+<p data-start="1818" data-end="2072">✔️ <strong data-start="1821" data-end="1844">Portfolio Analytics</strong> &ndash; Keep track of your gains and losses in real-time.<br data-start="1896" data-end="1899" />✔️ <strong data-start="1902" data-end="1930">Custom Security Settings</strong> &ndash; Tailor your protection levels to match your needs.<br data-start="1983" data-end="1986" />✔️ <strong data-start="1989" data-end="2016">DeFi &amp; Dapp Integration</strong> &ndash; Unlock the full potential of decentralized finance.</p>
+<h3 data-start="2074" data-end="2122">✅ <strong data-start="2080" data-end="2120">Ready to Take Charge of Your Crypto?</strong></h3>
+<p data-start="2123" data-end="2231">Download <strong data-start="2132" data-end="2152">Treźoŕ Suite Āpp</strong> today and experience <strong data-start="2174" data-end="2211">security, simplicity, and freedom</strong>&mdash;all in one place.</p>
+        </section>
+    </main>
 
-<section data-bs-version="5.1" class="article12 cid-uEz2P9AVSp" id="article12-7">    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style mb-4 mt-0 display-2"><strong>Uncompromising Security, Total Peace of Mind</strong></h3>
-                
-                <p class="mbr-text mbr-fonts-style display-7">With Treźoŕ Suite Āpp, your assets are protected by industry-leading security features. Whether you're a seasoned trader or just getting started, you can rest easy knowing your crypto is safe from hackers and unauthorized access.
-<br>
-<br>✔️ Hardware-Backed Security – Works seamlessly with Treźoŕ hardware wallets for maximum protection.
-<br>✔️ Passphrase &amp; 2FA Protection – Your private keys never leave your device.
-<br>✔️ Anonymous Mode – Keep your transactions private with CoinJoin integration.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Treźoŕ Suite Āpp. All rights reserved.</p>
+    </footer>
 
-<section data-bs-version="5.1" class="footer4 cid-uEz1csNJpJ" once="footers" id="footer04-4">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2025 Treźoŕ Suite Āpp - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-  
 </body>
 </html>
